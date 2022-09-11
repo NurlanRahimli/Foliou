@@ -1,0 +1,246 @@
+.gradient{
+    background-image: linear-gradient(-39deg, #ff6b6b, #2b90d9) !important;
+}
+.bg-img1{
+    background-image: url(https://d19m59y37dris4.cloudfront.net/foliou/3-0/device-mockups/Macbook2015/portrait_gold.0cd92d66.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img{
+    height: 336px;
+    padding-top: 28px;
+    padding-left: 77px;
+}
+
+.bor{
+    border: 2px solid #FF6B6B;
+    width: 80px;
+    height: 2px;
+}
+
+.overflow{overflow: hidden;}
+
+
+.bg-grey{background-color: #F8F9FA;}
+.bg-orange{background-color: #FF6B6B;}
+.bg-222222{background-color: #222222;}
+.bg-black{background-color: #1D1D1D;}
+
+
+.text-orange{color: #FF6B6B !important;}
+.text-grey{color: #6c757d !important;}
+.text-grey1{color: #adb5bd;}
+.text-grey2{color: #eaecee;}
+
+
+.fs-2-5{font-size: 2.5rem;}
+.fs-64{font-size: 64px;}
+.fs-55{font-size: 55px;}
+.fs-40{font-size: 40px;}
+.fs-20{font-size: 20px;}
+.fs-16{font-size: 16px;}
+
+
+.FOLIOU{
+    text-transform: uppercase;
+    font-family: Arial, font-family;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #103b5b;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+}
+.shadow{
+    text-shadow: 2px 2px 2px #103b5b;
+}
+.ls-2{letter-spacing: 2px;}
+
+
+.t-5{transition: .5s;}
+.br-30{border-radius: 30px;}
+.br-5{border-radius: 5px;}
+
+
+.hover1:hover{
+    background-color: white;
+    color: #FF6B6B !important; 
+}
+.hover2:hover{
+    background-image: linear-gradient(-39deg, #ff6b6b, #2b90d9); color: white !important;
+}
+.hover3:hover{
+    color: white !important;
+}
+.hover4:hover{
+    background-color: #FF3838;
+    color: white;
+}
+.hover5:hover{
+    background-color: #2B90D9;
+}
+.hover6:hover{
+    color: #FF6958 !important;
+}
+
+
+
+.device-mockup {
+    z-index: 999;
+    position: relative;
+}
+.screen {
+    position: absolute;
+    left: 30%;
+}
+
+
+.w-60{width: 89%;}
+.w-50{width: 50%;}
+
+.h-382{height: 382px;}
+.h-90{height: 100px;}
+
+
+
+.py-10{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.px-50{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.pb-150{padding-bottom: 150px;}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+.pa{
+    position: absolute;
+    font-size: 14rem;
+    bottom: 70%;
+    left:30%;
+}
+
+
+.overlay {
+    position: absolute;
+  }
+.clm {
+    padding: 0;
+    position: relative;
+  }
+ .clm .overlay {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: 0.5s;
+    opacity: 0;
+  }
+   .clm .overlay h2 {
+    padding-top: 9rem;
+    color: black;
+  }
+  .clm .overlay p {
+    color: black;
+  }
+   .clm:hover .overlay {
+    width: 100%;
+    opacity: 0.8;
+  }
+  .overlay1 {
+    position: absolute;
+  }
+  .clm .overlay1 {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FB7679;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .clm .overlay2 {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 45%;
+    left: 45%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .clm:hover .overlay1 {
+    width: 100%;
+    opacity: 0.8;
+  }
+  .clm:hover .overlay2 {
+    width: 100%;
+    opacity: 0.8;
+  }
+  .clm .overlay i {
+    color: rgb(250, 244, 244);
+    top: 0;
+    left: 0;
+    transform: translate(-50% -50%);
+  }
+
+
+
+
+  .circle{
+    padding-left: 12px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    background-color: #FF6B6B;
+    border-radius: 100%;
+    color: white;
+  }
+  .circle2{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    background-color: #FF6B6B;
+    border-radius: 100%;
+    color: white;
+  }
+  .circle3{
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    background-color: #FF6B6B;
+    border-radius: 100%;
+    color: white;
+  }
+
+
+@media (max-width: 575.98px) {
+	.fs-sm-18{ font-size: 17px }
+	.fs-sm-11{ font-size: 11px }
+	.fs-sm-14{ font-size: 14px; }
+    .pt-sm-40{padding-top: 40px;}
+    .pt-sm-20{padding-top: 20px;}
+
+    .px-sm-50{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .py-sm-40{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+
